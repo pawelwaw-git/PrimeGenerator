@@ -1,7 +1,9 @@
 <?php
+
+namespace App;
+
 class PrimeGenerator
 {
-
     private int $limitGeneration;
 
     private array $primeList;
@@ -45,7 +47,3 @@ class PrimeGenerator
         unset($this->primeList[$primeEliminationCandidate]);
     }
 }
-
-// generate prime number from 1 to 80
-$primeGenerator = new PrimeGenerator(80);
-print_r($primeGenerator->generatePrimes());
