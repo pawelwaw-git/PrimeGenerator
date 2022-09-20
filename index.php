@@ -49,6 +49,7 @@ class PrimeGenerator
     }
 }
 
+// generate prime number from 1 to 80
 $primeGenerator = new PrimeGenerator(80);
 $primeGenerator->generatePrimes();
 print_r($primeGenerator->getPrimesArray());
