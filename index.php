@@ -20,7 +20,7 @@ class PrimeGenerator
     }
     private function initializePrimelist()
     {
-        for ($i = 1; $i <= $this->limitGeneration; $i++) {
+        for ($i = 2; $i <= $this->limitGeneration; $i++) {
             $this->primeList[$i] = $i;
         }
     }
