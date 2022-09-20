@@ -11,7 +11,7 @@ class PrimeGenerator
     {
         $this->limitGeneration = $limitGeneration;
     }
-    public function generatePrimes()
+    public function generatePrimes():array
     {
         $this->initializePrimelist();
         $this->findMultiplies();
