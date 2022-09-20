@@ -10,13 +10,13 @@ class PrimeGenerator
     public function __construct(int $limitGeneration)
     {
         $this->limitGeneration = $limitGeneration;
-        $this->generatePrimes();
     }
     public function generatePrimes()
     {
         $this->initializePrimelist();
         $this->findMultiplies();
         $this->eliminateMultiplies();
+        return $this->primeList;
     }
     private function initializePrimelist()
     {
@@ -44,12 +44,8 @@ class PrimeGenerator
     private function removeFromPrimes(int $primeEliminationCandidate){
         unset($this->primeList[$primeEliminationCandidate]);
     }
-    public function getPrimesArray(): array
-    {
-        return $this->primeList;
-    }
 }
 
 // generate prime number from 1 to 80
 $primeGenerator = new PrimeGenerator(80);
-print_r($primeGenerator->getPrimesArray());
+print_r($primeGenerator->generatePrimes());
