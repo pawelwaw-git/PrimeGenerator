@@ -18,7 +18,7 @@ e.g whether code is desriptive enough.
 Use [composer](https://getcomposer.org) to install PhpSpreadsheet into your project:
 
 ```sh
-composer require pawelwaw-git/prime-generator:dev-master
+composer require pawelwaw-git/primegenerator:dev-master
 ```
 
 If you are building your installation on a development machine that is on a different PHP version to the server where it will be deployed, or if your PHP CLI version is not the same as your run-time such as `php-fpm` or Apache's `mod_php`, then you might want to add the following to your `composer.json` before installing:
@@ -45,8 +45,7 @@ require_once __DIR__ ."/vendor/autoload.php";
 //set max Prime Number
 $limitNumber = 50;
 $primeGenerator = new PrimeGenerator($limitNumber);
-$primesNumbers = $primeGenerator->generatePrimes();
 // print result on screen
-print_r($primesNumbers);
+print_r($primeGenerator->generatePrimes());
 
 ```
