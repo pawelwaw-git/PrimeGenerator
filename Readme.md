@@ -46,7 +46,7 @@ use pawelwawApp\PrimeGenerator;
 
 require_once __DIR__ ."/vendor/autoload.php";
 
-$primeGenerator = new PrimeGenerator($limitNumer);
+$primeGenerator = new PrimeGenerator($limitNumber);
 $primesNumbers = $primeGenerator->generatePrimes();
 
 ```

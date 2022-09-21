@@ -3,6 +3,7 @@
     "description": "package can generate prime numbers",
     "version": "1.0",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
         "phpunit/phpunit": "^9"
