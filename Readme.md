@@ -27,6 +27,9 @@ If you are building your installation on a development machine that is on a diff
     "require": {
 		"php": ">=7.4",
         "pawelwaw-git/primegenerator": "dev-master"
+    },
+    "autoload": {
+        "pawelwawApp\\": "src/"
     }
 }
 ```

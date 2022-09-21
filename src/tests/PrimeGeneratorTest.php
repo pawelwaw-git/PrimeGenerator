@@ -5,8 +5,6 @@ declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 use pawelwawApp\PrimeGenerator;
 
-
-
 final class PrimeGeneratorTest extends TestCase
 {
 
