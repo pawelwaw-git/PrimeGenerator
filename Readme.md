@@ -25,12 +25,8 @@ If you are building your installation on a development machine that is on a diff
 ```json
 {
     "require": {
-        "pawelwaw-git/prime-generator:dev-master": "^1.0"
-    },
-    "config": {
-        "platform": {
-            "php": "^7.4"
-        }
+		"php": ">=7.4",
+        "pawelwaw-git/primegenerator": "dev-master"
     }
 }
 ```
@@ -46,7 +42,11 @@ use pawelwawApp\PrimeGenerator;
 
 require_once __DIR__ ."/vendor/autoload.php";
 
+//set max Prime Number
+$limitNumber = 50;
 $primeGenerator = new PrimeGenerator($limitNumber);
 $primesNumbers = $primeGenerator->generatePrimes();
+// print result on screen
+print_r($primesNumbers);
 
 ```
