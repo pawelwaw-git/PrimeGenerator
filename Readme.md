@@ -37,7 +37,8 @@ If you are building your installation on a development machine that is on a diff
 and then run
 ```sh
 composer install
-
+```
+# Sample Usage
 
 ```php
 // sample useage of code
