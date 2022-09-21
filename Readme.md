@@ -21,22 +21,6 @@ Use [composer](https://getcomposer.org) to install PhpSpreadsheet into your proj
 composer require pawelwaw-git/primegenerator:dev-master
 ```
 
-If you are building your installation on a development machine that is on a different PHP version to the server where it will be deployed, or if your PHP CLI version is not the same as your run-time such as `php-fpm` or Apache's `mod_php`, then you might want to add the following to your `composer.json` before installing:
-```json
-{
-    "require": {
-		"php": ">=7.4",
-        "pawelwaw-git/primegenerator": "dev-master"
-    },
-    "autoload": {
-        "pawelwawApp\\": "src/"
-    }
-}
-```
-and then run
-```sh
-composer install
-```
 # Sample Usage
 
 ```php
