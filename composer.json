@@ -1,6 +1,7 @@
 {
     "name": "pawelwaw-git/prime-generator",
     "description": "package can generate prime numbers",
+    "version": "1.0",
     "license": "MIT",
     "require": {
         "php": ">=7.4",
