@@ -8,3 +8,18 @@ or should i fix somehow.
 I want to know whether others programmers can call it "good OOP code" or "clean code"
 e.g whether code is desriptive enough.
 
+In order to install you use 
+composer require pawelwaw-git/prime-generator:dev-master
+
+sample usage 
+
+<?php
+
+use App\PrimeGenerator;
+
+require_once __DIR__ ."/vendor/autoload.php";
+
+$primeGenerator = new PrimeGenerator($limitNumer);
+$primesNumbers = $primeGenerator->generatePrimes();
+
+?>
