@@ -13,6 +13,7 @@ composer require pawelwaw-git/prime-generator:dev-master
 
 sample usage 
 
+<code>
 <?php
 
 use App\PrimeGenerator;
@@ -23,3 +24,4 @@ $primeGenerator = new PrimeGenerator($limitNumer);
 $primesNumbers = $primeGenerator->generatePrimes();
 
 ?>
+</code>
