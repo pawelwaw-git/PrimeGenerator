@@ -10,7 +10,7 @@ https://www.topcoder.com/thrive/articles/sieve-of-eratosthenes-algorithm
 My goal is to get feedback from more expirienst programmers, whether my code is good enough
 or should i fix somehow.
 I want to know whether others programmers can call it "good OOP code" or "clean code"
-e.g whether code is desriptive enough.
+e.g whether code is descriptive enough.
 
 
 # Installation
