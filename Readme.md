@@ -15,7 +15,7 @@ e.g whether code is descriptive enough.
 
 # Installation
 
-Use [composer](https://getcomposer.org) to install PhpSpreadsheet into your project:
+Use [composer](https://getcomposer.org) to install PrimeGenerator into your project:
 
 ```sh
 composer require pawelwaw-git/primegenerator:dev-master
